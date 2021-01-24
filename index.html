@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eventos</title>
+  </head>
+  <body>
+    <h1>Eventos</h1>
+    <button class="save" onclick="saveData()">Guardar</button>
+    <br>
+    <label for="firstName">Nombre</label>
+    <input for="firstName" type="text" class="name" onfocus="changeColorFocus()" onfocusout="changeColorNoFocus()"/>
+    <br>
+    <label for="randomLetter">Escribe una letra</label>
+    <input for="randomLetter" type="text" class="random" onkeypress="checkLetter(event)"/>
+    <script src="index.js"></script>
+  </body>
+</html>
